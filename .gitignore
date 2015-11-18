@@ -1,0 +1,12 @@
+accessingdataneo4j.db
+.gradle
+.idea
+*.iml
+*.class
+neo.db
+out
+target
+build
+gradle
+gradlew
+gradlew.bat
