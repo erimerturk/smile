@@ -20,7 +20,7 @@ public class Order extends BaseExternalNode {
     @DateLong
     private Date date;
 
-    private String session;
+    private String orderNumber;
 
     public Buyer getBelongsTo() {
         return belongsTo;
@@ -46,11 +46,11 @@ public class Order extends BaseExternalNode {
         this.date = date;
     }
 
-    public String getSession() {
-        return session;
+    public String getOrderNumber() {
+        return orderNumber;
     }
 
-    public void setSession(String session) {
-        this.session = session;
+    public void setOrderNumber(String orderNumber) {
+        this.orderNumber = orderNumber;
     }
 }

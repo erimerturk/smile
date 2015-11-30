@@ -15,5 +15,27 @@ public class Session extends BaseNode {
     @Relationship(type = Relations.BUYER_SESSION)
     private Buyer buyer;
 
+    public String getHasc() {
+        return hasc;
+    }
 
+    public void setHasc(String hasc) {
+        this.hasc = hasc;
+    }
+
+    public Persistent getPersistent() {
+        return persistent;
+    }
+
+    public void setPersistent(Persistent persistent) {
+        this.persistent = persistent;
+    }
+
+    public Buyer getBuyer() {
+        return buyer;
+    }
+
+    public void setBuyer(Buyer buyer) {
+        this.buyer = buyer;
+    }
 }

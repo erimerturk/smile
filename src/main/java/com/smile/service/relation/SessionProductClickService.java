@@ -1,6 +1,5 @@
 package com.smile.service.relation;
 
-import com.smile.model.Buyer;
 import com.smile.model.Product;
 import com.smile.model.relation.SessionProductClick;
 import com.smile.repository.relation.SessionProductClickRepository;

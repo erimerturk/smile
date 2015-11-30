@@ -18,4 +18,8 @@ public final class Relations {
     public static final String BUYER_SESSION = "buyer_session";
     public static final String BUYER_PERSISTENT = "buyer_persistent";
     public static final String YEAR = "year";
+    public static final String ORDER_SESSION = "order_session";
+    public static final String PRODUCT_CLICK_SESSION = "pcs";
+    public static final String PRODUCT_CLICK = "click";
+    public static final String PRODUCT_CLICK_MONTH = "month";
 }

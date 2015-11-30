@@ -8,6 +8,7 @@ import org.springframework.data.neo4j.repository.GraphRepository;
 
 public interface SessionProductClickRepository extends GraphRepository<SessionProductClick> {
 
+    //TODO merge is slow, split entity creation from relation creation
     @Query(
         "merge (session:Session { hasc: {1} } ) " +
         "merge (product:Product {externalId: {0} }) " +
